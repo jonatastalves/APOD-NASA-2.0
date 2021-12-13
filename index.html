@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR   ">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="apod.js"></script>
+    <title>APOD</title>
+</head>
+<body>
+
+<header>
+    <nav>
+    
+        <span class="image-clickable">
+            <a href="index.html">
+                <img src="./img/nasalogo.png" alt="main-logo" class="logo" />
+            </a>
+        </span>
+
+        <div class="data">
+            <input type="date" name="date" id="date">
+            <input type="button" value="Buscar" id="search" onclick="searchSpace()">
+        </div> 
+           
+    </nav>
+     
+</header>
+
+<video autoplay muted loop id='backVideo' poster="./img/bc.png">
+    <source src='./img/astronautBackground.mp4' type="video/mp4">
+</video> 
+
+<main>
+
+    <section id='partecima'>
+        <div class='descricao1' id='vidro'>
+            <h1>Astronomy Picture Of The Day</h1><br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias blanditiis impedit, aliquam voluptatem ad, nulla excepturi illum consequuntur error dolor cum nesciunt, optio fuga? Nemo magnam aliquid totam quidem sint.</p>
+        </div>
+    </section>
+
+<section id="partebaixo">
+
+    <div class='descricao2' id='vidro'>
+        <h1>TITULO AQUI</h1><br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias blanditiis impedit, aliquam voluptatem ad, nulla excepturi illum consequuntur error dolor cum nesciunt, optio fuga? Nemo magnam aliquid totam quidem sint.</p>
+    </div>
+
+    <div class="img-nasa" id='vidro'>
+
+    </div>
+</section>
+    
+</main>
+
+<footer>
+    <div class="footer-content">
+        <p>APOD - &copy;2021 Todos os direitos reservados!</p>
+        <p> By <span>Jonatas [T10]</span></p>
+        <ul class="socials">
+            <li><a href="https://www.facebook.com/jonatastorresalves/"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/jonatastorresalves/"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/jonatastalves/"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+    </div>
+</footer>
+    
+</body>
+</html>
