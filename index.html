@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="apod.js"></script>
     <title>APOD</title>
 </head>
@@ -22,7 +23,7 @@
 
         <div class="data">
             <input type="date" name="date" id="date">
-            <input type="button" value="Buscar" id="search" onclick="searchSpace()">
+            <input type="button" value="Buscar" id="search" onclick="buscaApi()">
         </div> 
            
     </nav>
@@ -36,21 +37,21 @@
 <main>
 
     <section id='partecima'>
-        <div class='descricao1' id='vidro'>
+        <div id='descricao1'>
             <h1>Astronomy Picture Of The Day</h1><br>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias blanditiis impedit, aliquam voluptatem ad, nulla excepturi illum consequuntur error dolor cum nesciunt, optio fuga? Nemo magnam aliquid totam quidem sint.</p>
         </div>
     </section>
 
-<section id="partebaixo">
+<section id="parteBaixo" >
 
-    <div class='descricao2' id='vidro'>
-        <h1>TITULO AQUI</h1><br>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias blanditiis impedit, aliquam voluptatem ad, nulla excepturi illum consequuntur error dolor cum nesciunt, optio fuga? Nemo magnam aliquid totam quidem sint.</p>
+    <div class='quadros'>
+        <h1 id="tituloApi"></h1><br><br>
+        <p id='textApi'></p>
     </div>
 
-    <div class="img-nasa" id='vidro'>
-
+    <div class='quadros'>
+        <img id="imgApi" alt="img">
     </div>
 </section>
     
