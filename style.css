@@ -98,6 +98,10 @@ main{
     
 }
 
+#textApi{
+    overflow: auto;
+}
+
 .quadros{
     width: 30%;
     height: 55vh;
